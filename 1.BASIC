@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #201c1c;
+    }
+
+    #current-price {
+        color: #6E96CF;
+    }
+
+    #previous-price {
+        color: #777c85;
+        text-decoration: line-through;
+    }
+
+    #discount-percent {
+        border-radius: 5px;
+        display: block;
+        width: 55px;
+        height: 22px;
+        text-align: center;
+        margin-top: 2px;
+        padding: 2px;
+
+        background-color: aqua;
+        color: whitesmoke;
+    }
+
+    h1 {
+        color: whitesmoke;
+    }
+
+    hr {
+        width: 75%;
+        float: left;
+    }
+</style>
+
+<body>
+    <img height="250px" width="400px" style="border-radius: 10px;"
+        src="https://www.codehelp.in/_next/image?url=https%3A%2F%2Fcodehelp.s3.ap-south-1.amazonaws.com%2FWeb_Dev_670f900667.jpg&w=828&q=75"
+        alt="course image">
+    <h1>Web Development Master <br>Course @dot1.0 Batch</h1>
+    <hr style="width: 22%;"><br>
+    <div style="display: flex; justify-content: space-around; width: 12%;">
+
+        <span id="current-price">&#8377;3499</span>
+        <span id="previous-price">&#8377;6999</span>
+        <span id="discount-percent">50%off</span>
+
+    </div>
+</body>
+
+</html>
